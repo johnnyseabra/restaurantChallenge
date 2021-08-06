@@ -38,6 +38,10 @@
 
 				$('#orderId').text(orderID);
 				$('#clientName').text(clientName);
+
+				//Play sound
+				var audio = new Audio('/audio/CartoonBoing.mp3');
+				audio.play();
  				
              });
         </script>
